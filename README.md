@@ -5,7 +5,7 @@
 The implementation of [DeepTextSpotter](https://drive.google.com/open?id=0B8SUcdkLTcuTSmo4T2ozMWtDaUU): An End-to-End Trainable Scene Text Localization and Recognition Framework :  ICCV 2017.  
 
 
-##Installation
+## Installation
 
 1. Get the proper version of [caffe](https://github.com/MichalBusta/caffe.git)
   - or take required layers: Transpose, Reorg, Region, CTCLoss  
@@ -29,20 +29,20 @@ make
 make install (optionally)
 ```
 
-##Download models
+## Download models
 
 RPN: https://drive.google.com/open?id=0B8SUcdkLTcuTZjRHeUpjdzhmbFE
 OCR: https://drive.google.com/open?id=0B8SUcdkLTcuTMmI0TS1uNDJaZGs
 
 the paths are hard-coded, models shoud be at models subdirectory
 
-##Run webcam demo
+## Run webcam demo
 
 ```
 python2 demo.py
 ```
 
-##Notes:
+## Notes:
  - The provided RPN model is tiny version of full "YOLOv2" detector (= demo runs at 7 fps on 1GB Nvidia GPU) 
  - For decoding final output, we provide just greedy and dictionary based prefix decoding
  
