@@ -19,7 +19,8 @@ git checkout darknet
 
 ```
 
-2. build caffe 
+2. build caffe
+ 
 ```
 mkdir Release 
 cd Release 
@@ -36,6 +37,7 @@ OCR: https://drive.google.com/open?id=0B8SUcdkLTcuTMmI0TS1uNDJaZGs
 the paths are hard-coded, models shoud be at models subdirectory
 
 ##Run webcam demo
+
 ```
 python2 demo.py
 ```
