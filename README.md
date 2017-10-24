@@ -4,6 +4,9 @@
 
 The implementation of [DeepTextSpotter](https://drive.google.com/open?id=0B8SUcdkLTcuTSmo4T2ozMWtDaUU): An End-to-End Trainable Scene Text Localization and Recognition Framework :  ICCV 2017.  
 
+## Requirements
+  - python2.7
+  - opencv 3.x with python bindings
 
 ## Installation
 
@@ -27,6 +30,15 @@ cd Release
 cmake -D CMAKE_BUILD_TYPE=Release -D BLAS=Open -D BUILD_SHARED_LIBS=Off ..
 make 
 make install (optionally)
+```
+
+3. build project
+```
+cd "SOURCE dir" 
+mkdir build
+cd build
+cmake ..
+make 
 ```
 
 ## Download models
