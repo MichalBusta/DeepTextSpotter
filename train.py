@@ -229,7 +229,7 @@ def process_batch(nets, optim, optim2, image_size, args):
           continue
         #if norm3 is None:
         #  continue
-        continue
+        #continue
         #cv2.imshow('ts', norm2)
         #cv2.imshow('ts3', norm3)
         #cv2.waitKey(1)
