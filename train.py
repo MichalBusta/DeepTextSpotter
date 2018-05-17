@@ -43,7 +43,7 @@ snapshot_interval = 1000
 
 codec = u' !"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_abcdefghijklmnopqrstuvwxyz{|}~£ÁČĎÉĚÍŇÓŘŠŤÚŮÝŽáčďéěíňóřšťúůýž'
 codec_rev = {}
-index = 3
+index = 4
 for i in range(0, len(codec)):
   codec_rev[ord(codec[i])] = index
   index += 1
