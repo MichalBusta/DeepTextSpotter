@@ -327,7 +327,7 @@ def process_batch(nets, optim, optim2, image_size, args):
       sf = net_ctc.blobs['transpose'].data[...]
       labels2 = sf.argmax(3)
       out = utils.print_seq(labels2[:, 0, :])
-      print(u'{0} - {1}'.formayolo_mobile_iter_0t(out, txt[0])  )
+      print(u'{0} - {1}'.format(out, txt[0])  )
       cv2.waitKey(5)
           
           
